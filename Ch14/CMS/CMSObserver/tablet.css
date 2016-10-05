@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/* CSS Document */
+/* 456173,BFA473,D9C3A9,A56F4E,5B574B */
+body
+{
+	font-family:Verdana, Geneva, sans-serif;
+	background-color:#D9C3A9;
+	color:#5b5748;
+	padding-right:10px;
+}
+
+h1
+{
+	font-family:"Arial Black", Gadget, sans-serif;
+	text-align:center;
+	color:#456173;
+	background-color:#bfa473;
+}
+
+img
+{
+	padding-right:10px;
+	float:left;
+}
+

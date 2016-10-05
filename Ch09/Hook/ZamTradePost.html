@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="zambezi.css">
+<title>Zambezi Trading Post</title>
+<body>
+<img src="zambezi.png" width="800" height="183" alt="zam">
+<h1>Adventure Outfitters</h1>
+<form action="Client.php" method="post">
+  <h2>&nbsp;Equipment</h2>
+  <h3>Navigation</h3>
+  <p><strong>GPS</strong></p>
+  <input type="radio" name="gps" value="98">
+  &nbsp;Curiosity $98&nbsp;
+  <input type="radio" name="gps" value="112">
+  &nbsp;Cabot $112&nbsp;
+  <input type="radio" name="gps" value="127">
+  &nbsp;Boomer $127&nbsp;
+  <input type="radio" name="gps" value="189">
+  &nbsp;Livingston $189&nbsp;
+  <p><strong>Maps</strong></p>
+  <input type="checkbox" name="map[]" value="20">
+  &nbspZambia $20&nbsp;
+  <input type="checkbox" name="map[]" value="29">
+  &nbspAngola $29&nbsp;
+  <input type="checkbox" name="map[]" value="15">
+  &nbspNamibia $15&nbsp;
+  <input type="checkbox" name="map[]" value="15">
+  &nbspBotswana $15&nbsp;
+  <input type="checkbox" name="map[]" value="30">
+  &nbspZimbabwe $30&nbsp;
+  <input type="checkbox" name="map[]" value="27">
+  &nbspMozambique $27<br/>
+  <h2>&nbsp;River Craft (Daily Rental)</h2>
+  <input type="radio" name="boat" value="55">
+  &nbsp;White Water Kayak $55<br/>
+  <input type="radio" name="boat" value="125">
+  &nbsp;Motorized Canoe $125<br/>
+  <input type="radio" name="boat" value="250">
+  &nbsp;Zodiac $250<br/>
+  <input type="radio" name="boat" value="495">
+  &nbsp;Steam Launch $495
+  <p/>
+  <input type="submit" name="sender" value="Send order">
+</form>
+</body>
+</html>

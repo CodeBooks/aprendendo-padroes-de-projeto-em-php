@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="survey.css">
+<meta charset="UTF-8">
+<title>Administrative Module</title>
+</head>
+
+<body>
+<h2>Administrative Module</h2>
+<h3>&nbsp;Display all data</h3>
+<form name="allData" action="displayTrigger.php" method="post">
+  <input type="submit" value="Display Data" name="display">
+</form>
+<form name="search" action="findTrigger.php" method="post">
+  <h3>&nbsp;Search Field</h3>
+  <input type="radio" name="field" value="id">
+  &nbsp;ID<br />
+  <input type="radio" name="field" value="company">
+  &nbsp;Company<br />
+  <input type="radio" name="field" value="devdes">
+  &nbsp;Designer/Developer<br />
+  <input type="radio" name="field" value="lang">
+  &nbsp;Computer Language<br />
+  <input type="radio" name="field" value="plat">
+  &nbsp;Development Platform<br />
+  <input type="radio" name="field" value="style">
+  &nbsp;Programming Style<br />
+  <input type="radio" name="field" value="device">
+  &nbsp;Target Device
+  <p />
+  <input type="text" name="term">
+  &nbsp;Term to find
+  <p />
+  <input type="submit" value="Search" name="searcher">
+</form>
+<form name="search" action="changeTrigger.php" method="post">
+  <h3>&nbsp;Change Field</h3>
+  <input type="radio" name="update" value="id">
+  &nbsp;ID <br />
+  <input type="radio" name="update" value="company">
+  &nbsp;Company<br />
+  <input type="radio" name="update" value="devdes">
+  &nbsp;Designer/Developer<br />
+  <input type="radio" name="update" value="lang">
+  &nbsp;Computer Language<br />
+  <input type="radio" name="update" value="plat">
+  &nbsp;Development Platform<br />
+  <input type="radio" name="update" value="style">
+  &nbsp;Programming Style<br />
+  <input type="radio" name="update" value="device">
+  &nbsp;Target Device
+  <p />
+  <input type="text" name="old">
+  &nbsp;Old Value
+  <p />
+  <input type="text" name="new">
+  &nbsp;New Value
+  <p />
+  <input type="submit" value="Change Value" name="changer">
+</form>
+<h3>&nbsp;Delete Record</h3>
+<form name="killer" action="killTrigger.php" method="post">
+  <input type="text" name="delete" size=3>
+  &nbsp;Number of Record to Delete
+  <p />
+  <input type="submit" value="Permanently Delete Record" name="doa">
+</form>
+</body>
+</html>

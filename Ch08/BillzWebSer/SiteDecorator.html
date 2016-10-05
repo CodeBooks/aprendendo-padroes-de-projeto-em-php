@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style type="text/css">
+body {
+	font-family: Verdana, Arial;
+	color: #151919;
+	background-color: #E5B744;
+ font-size;
+11pt;
+}
+h1 {
+	color: #733218;
+}
+h2 {
+	color: #8C7C40;
+}
+</style>
+<title>Billz Sites</title>
+</head>
+
+<body>
+<h1>Billz Fabulous Web sites</h1>
+<h2>Start by Choosing Basic Site:</h2>
+<form action="Client.php" method="post">
+  <input type="radio" name="site" value="basic" />
+  Basic Site<br/>
+  <h2>Select Site Features</h2>
+  <input type="checkbox" name=feature[] value="maintenance" />
+  Maintenance Contract<br/>
+  <input type="checkbox" name=feature[] value="video" />
+  Video<br/>
+  <input type="checkbox" name=feature[] value="database" />
+  MySQL Database
+  <p/>
+  <input type="submit" name="order" value="Order Site" />
+</form>
+</body>
+</html>

@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/* CSS Document */
+/*zambezi.css */
+/*D9C68F,F2DAC4,A69586,73635A,592D23*/
+body {
+	background-color: #f2dac4;
+	color: #73635a;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+}
+h1 {
+ font-family:"Trebuchet MS", Arial, Helvetica, sans-serif  font-size:36px
+}
+h2 {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size: 18px;
+	background-color: #592d23;
+	color: #d9c68f;
+}

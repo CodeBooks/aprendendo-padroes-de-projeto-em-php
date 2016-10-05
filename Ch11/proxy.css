@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* CSS Document */
+/*705B35,C7B07B,E8D9AC,FFF6D9,570026 */
+
+body
+	{
+		font-family:Verdana, Geneva, sans-serif;
+		font-size:14px;
+		color:#705B35;
+		margin-left:20px;
+		background-color:#FFF6D9;
+	}
+	
+a
+	{
+		text-decoration:none;
+		font-size:14px;
+		font-weight:bold;
+		color:#94222f;	
+	}
+	
+header
+	{
+		font-size:18px;
+		font-family:"Arial Black", Gadget, sans-serif;
+		color:#570026;
+	}
+	
+.subhead
+	{
+		font-size:16px;
+		font-family:Verdana, Geneva, sans-serif;
+	}

@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/* desktop.css */
+/* CSS Document */
+/* 595241,B8AE9C,FFFFFF,ACCFCC,8A0917 */
+body
+{
+	font-family:Verdana, Geneva, sans-serif;
+	background-color:#ffffff;
+	color:#595241;
+	padding-right:10px;
+}
+
+h1
+{
+	font-family:"Arial Black", Gadget, sans-serif;
+	text-align:center;
+	color:#8A0917;
+	background-color:#ACCFCC;
+}
+
+img
+{
+	padding-right:10px;
+	float:left;
+}
+

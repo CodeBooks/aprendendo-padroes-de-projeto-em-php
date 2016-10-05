@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="survey.css">
+<meta charset="UTF-8">
+<title>Programmer Profile Survey</title>
+</head>
+<body>
+<h2>Programmer Survey</h2>
+<form name="survey" action="insertTrigger.php" method="post">
+  <input type="text" name="company">
+  &nbsp;Company Name<br />
+  <h3>&nbsp;Primary Role</h3>
+  <input type="radio" name="devdes" value="developer">
+  &nbsp;Developer<br />
+  <input type="radio" name="devdes" value="designer">
+  &nbsp;Designer<br />
+  <h3>&nbsp;Primary Programming Language</h3>
+  <input type="radio" name="lang" value="PHP">
+  &nbsp;PHP<br />
+  <input type="radio" name="lang" value="C#/ASP.NET">
+  &nbsp;C# ASP.NET<br />
+  <input type="radio" name="lang" value="PERL">
+  &nbsp;PERL<br />
+  <input type="radio" name="lang" value="JavaScript">
+  &nbsp;JavaScript<br />
+  <input type="radio" name="lang" value="ActionScript 3.0">
+  &nbsp;ActionScript 3.0<br />
+  <h3>&nbsp;Primary Development/Design Platform</h3>
+  <input type="radio" name="plat" value="WinPC">
+  &nbsp;Windows PC<br />
+  <input type="radio" name="plat" value="Mac">
+  &nbsp;Apple Macintosh<br />
+  <input type="radio" name="plat" value="Linux">
+  &nbsp;Linux<br />
+  <h3>&nbsp;Primary Programming Style</h3>
+  <input type="radio" name="style" value="sequential">
+  &nbsp;Sequential<br />
+  <input type="radio" name="style" value="procedural">
+  &nbsp;Procedural<br />
+  <input type="radio" name="style" value="OOP">
+  &nbsp;Object Oriented Programming<br />
+  <input type="radio" name="style" value="design patterns">
+  &nbsp;Design Patterns
+  <p />
+  <h3>&nbsp;Primary Platform Development/Design</h3>
+  <input type="radio" name="device" value="Desktop">
+  &nbsp;Desktop<br />
+  <input type="radio" name="device" value="Tablet">
+  &nbsp;Tablet<br />
+  <input type="radio" name="device" value="Smart Phone">
+  &nbsp;Smart Phone
+  <p />
+  <input type="submit" value="Create Profile" name="sender">
+</form>
+</body>
+</html>

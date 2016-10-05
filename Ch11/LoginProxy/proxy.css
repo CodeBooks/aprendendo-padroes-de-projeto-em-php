@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/* CSS Document */
+/*EFECCA,046380,002F2F */
+
+body {
+	margin-left:20px;
+	font-family:Verdana, Geneva, sans-serif;
+	background-color:#EFECCA;
+}
+header {
+	font-family: "Arial Black", Gadget, sans-serif;
+	font-size:24px;
+	color:#002F2F;
+}
+#entry {
+	font-size:11;
+	color:#046380;
+}
+
+.subhead
+{
+	font-size:16px;
+	font-family:Verdana, Geneva, sans-serif;
+}

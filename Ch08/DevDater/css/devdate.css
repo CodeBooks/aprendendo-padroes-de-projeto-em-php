@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/* CSS Document */
+header
+{
+	font-family:Cracked;
+	font-size:72px;
+	color:#F00;
+	background-color:#000;
+}
+h2
+{
+	font-family:"Courier New", Courier, monospace;
+	font-size:24px;
+}
+
+h3
+{
+	font-family:"Courier New", Courier, monospace;
+	font-size:18px;
+	color:#fff;
+	background-color:#000;
+}
+
+body
+{
+	font-family:"Courier New", Courier, monospace;
+	font-size:14px;
+}
+#sex
+{
+	display:table;
+}
+#fem
+{
+	display:table-cell;
+	width:150px;
+	text-align:center;
+}
+aside
+{
+	display:table-cell;
+	width:150px;
+	text-align:center;
+}

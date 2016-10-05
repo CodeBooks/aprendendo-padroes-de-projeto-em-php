@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/* CSS Document */
+/*B2B2B2,B2A1A1,666666,8FB299*/
+body
+{
+	background-color:#B2B2B2;
+	color:#666666;
+	font-family:Verdana, Geneva, sans-serif
+}
+
+h2
+{
+	font-family:"Arial Black", Gadget, sans-serif;
+	color:#666666
+}
+
+h3
+{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	background-color:#8FB299;
+	color:#666666
+}
+
+th
+{
+	text-align:left;
+	background-color:#8FB299;
+	color:#666666
+}
